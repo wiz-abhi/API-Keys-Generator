@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postinstall": "echo 'Skipping Jest tests on build'",
     "start": "next start",
     "lint": "next lint"
   },
