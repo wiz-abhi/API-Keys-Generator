@@ -9,7 +9,7 @@ export default function Home() {
           Unlock the Power of <span className="text-indigo-600">AI</span>
         </h1>
         <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto">
-          Access Azure OpenAI models securely through our proxy API. Generate unique API keys and start building
+          Access OpenAI models securely through our API. Generate unique API keys and start building
           intelligent applications today.
         </p>
         <div className="mt-10">
@@ -32,12 +32,12 @@ export default function Home() {
         <FeatureCard
           icon={<Lock className="h-8 w-8 text-indigo-600" />}
           title="Enhanced Security"
-          description="Your Azure OpenAI API key remains hidden and protected."
+          description="Your OpenAI API key remains hidden and protected."
         />
         <FeatureCard
           icon={<Zap className="h-8 w-8 text-indigo-600" />}
           title="Powerful AI Models"
-          description="Access state-of-the-art Azure OpenAI models through our proxy."
+          description="Access state-of-the-art OpenAI models through our proxy."
         />
       </div>
     </main>

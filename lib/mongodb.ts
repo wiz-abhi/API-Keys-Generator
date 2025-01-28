@@ -48,11 +48,11 @@ export async function createWallet(userId: string) {
   const wallets = db.collection("wallets")
   const wallet = {
     userId,
-    balance: 1.0,
+    balance: 1.5,
     transactions: [
       {
         type: "CREDIT",
-        amount: 1.0,
+        amount: 1.5,
         description: "Initial credit",
         timestamp: new Date(),
       },
